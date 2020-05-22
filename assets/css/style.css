@@ -4,17 +4,21 @@ nav, header, footer {
 }
 
 body {
-    line-height: 1;
+    line-height: 1.5;
     margin: 0;
     font-family: 'Roboto', sans-serif, serif;
     background-color: lightgray;
+    text-align: center;
+    color: #666666;
+    text-shadow: 1px 1px 5px #a6a6a6;
+    
 }
 
 .container {
     width: 100%;
     margin: auto;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 4%;  
 }
 
 /*##########Navbar##########*/
@@ -77,6 +81,18 @@ section#TitleParent {
     box-shadow: 3px 5px 3px darkgrey;
 }
 /*##########About Me##########*/
+div#AboutMe1 {
+    float: left;
+    width: 46%;
+    margin: 1%;
+}
+
+div#AboutMe2 {
+    float: right;
+    width: 46%;
+    margin: 1%;
+
+}
 
 
 
@@ -86,6 +102,7 @@ section#TitleParent {
 
 /*##########Mobile Responsiveness##########*/
 @media screen and (max-width: 680px) {
+/*##########Navbar##########*/
     ul.topnav li:not(:nth-child(6)) {
         display: none;
     }
@@ -113,6 +130,18 @@ section#TitleParent {
         display: block;
         text-align: left;
     }
+/*##########Education##########*/
+    div#AboutMe1 {
+        width: 92%;
+        float: none;
+        margin: inherit;
+    }
+    div#AboutMe2 {
+        width: 92%;
+        float: none;
+        margin: inherit;
+    }
+
 }
 
 
