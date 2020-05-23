@@ -4,7 +4,7 @@ nav, header, footer {
 }
 
 body {
-    line-height: 1.5;
+    line-height: 2;
     margin: 0;
     font-family: 'Roboto', sans-serif, serif;
     background-color: lightgray;
@@ -17,8 +17,8 @@ body {
 .container {
     width: 100%;
     margin: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;  
+    padding-top: 2%;
+    padding-bottom: 2%;  
 }
 
 /*##########Navbar##########*/
@@ -51,7 +51,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    text-shadow: 3px 3px 5px black
+    text-shadow: 3px 3px 5px black;
 }
 
 ul.topnav li a:hover {
@@ -79,19 +79,87 @@ section#TitleParent {
     background-position: center;
     padding: 150px;
     box-shadow: 3px 5px 3px darkgrey;
+    border-bottom: solid #0077b3;
 }
 /*##########About Me##########*/
 div#AboutMe1 {
-    float: left;
-    width: 46%;
-    margin: 1%;
+    width: 92%;
+    margin: inherit;
 }
 
 div#AboutMe2 {
-    float: right;
-    width: 46%;
-    margin: 1%;
+    width: 92%;
+    margin: inherit;
 
+}
+/*##########Education##########*/
+div#Education1 {
+    width: 92%;
+    margin: inherit;
+}
+
+div#Education2 {
+    width: 92%;
+    margin: inherit;
+    background-color: floralwhite;
+    box-shadow: 3px 5px 3px darkgrey;
+}
+
+div#Education3 {
+    width: 92%;
+    margin: inherit;
+    background-color: floralwhite;
+    box-shadow: 3px 5px 3px darkgrey;
+}
+/*##########Technologies##########*/
+div#Technologies2 img {
+    padding: 20px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+/*##########Projects###########*/
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexbox div {
+    background-color: floralwhite;
+    padding: 0px;
+    box-shadow: 3px 5px 3px darkgrey;
+    width: 250px;
+    height: 350px;
+    margin: 25px;
+}
+
+.flexbox div img {
+    filter: drop-shadow(1px 1px 1px black);
+}
+/*##########ContactMe***********/
+section#ContactMe {
+    background-color: #0077b3;
+    box-shadow: 3px 5px 3px darkgrey;
+}
+
+div#ContactMe {
+    color: white;
+    text-shadow: none;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+div#Contact-Me img {
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+form input {
+    background;
+    border-radius;
+}
+
+form textarea {
+    background;
+    border-radius;
 }
 
 
@@ -130,7 +198,7 @@ div#AboutMe2 {
         display: block;
         text-align: left;
     }
-/*##########Education##########*/
+/*##########AboutMe##########*/
     div#AboutMe1 {
         width: 92%;
         float: none;
@@ -141,6 +209,29 @@ div#AboutMe2 {
         float: none;
         margin: inherit;
     }
+/*##########Education##########*/ 
+    div#Education1 {
+        width: 92%;
+        float: none;
+        margin: inherit;
+    }
+    
+    div#Education2 {
+        width: 92%;
+        float: none;
+        margin: inherit;
+    }
+    
+    div#Education3 {
+        width: 92%;
+        float: none;
+        margin: inherit;
+    }
+/*##########Projects##########*/
+    .flexbox {
+        flex-flow: column;
+
+    } 
 
 }
 
