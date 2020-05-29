@@ -29,6 +29,7 @@ nav {
 
 nav ul {
     background-color: #0077b3;
+    background: linear-gradient(to bottom right, #0077b3, #00aaff);
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -79,7 +80,7 @@ section#TitleParent {
     background-position: center;
     padding: 150px;
     box-shadow: 3px 5px 3px darkgrey;
-    border-bottom: solid #0077b3;
+    border-bottom;
 }
 /*##########About Me##########*/
 div#AboutMe1 {
@@ -139,6 +140,7 @@ div#Technologies2 img {
 /*##########ContactMe***********/
 section#ContactMe {
     background-color: #0077b3;
+    background: linear-gradient(to bottom right, #0077b3, #00aaff);
     box-shadow: 3px 5px 3px darkgrey;
 }
 
@@ -154,19 +156,13 @@ div#Contact-Me img {
 
 form input {
     background;
-    border-radius;
+    border-radius: 7px;
 }
 
 form textarea {
     background;
-    border-radius;
+    border-radius: 7px;
 }
-
-
-
-
-
-
 
 /*##########Mobile Responsiveness##########*/
 @media screen and (max-width: 680px) {
